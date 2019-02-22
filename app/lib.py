@@ -29,6 +29,6 @@ def calculate_bonuses(accumulated, spent):
     if accumulated > 150_000:
         bonus = 100
 
-    result = int(spent // bonus_cost) * bonus
+    result = spent // bonus_cost * bonus
     return result
 
